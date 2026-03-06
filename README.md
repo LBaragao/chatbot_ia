@@ -1,37 +1,28 @@
-# Chatbot com Inteligência Artificial
+# AI Chatbot
 
-Projeto desenvolvido durante a **Jornada Python da Hashtag Treinamentos** para criação de um chatbot utilizando Python e inteligência artificial.
+This project implements a simple chatbot using Python and an AI API to generate responses.
 
-## 📌 Descrição
+⭐ Project developed for learning purposes.
 
-Este projeto demonstra a criação de um chatbot capaz de responder perguntas de usuários utilizando modelos de linguagem.
-
-A aplicação simula uma interface de conversa onde o usuário envia perguntas e recebe respostas geradas por inteligência artificial.
-
-## ⚙️ Tecnologias utilizadas
-
+## Technologies
 - Python
-- OpenAI API
+- AI API
 
-## 💬 Funcionalidades
+## Project Overview
 
-- Receber perguntas do usuário
-- Processar a pergunta utilizando um modelo de IA
-- Retornar respostas geradas automaticamente
+The chatbot receives user input and sends it to an AI model, which generates a response. The goal of the project is to explore basic concepts of conversational AI and API integration.
 
-## 🚀 Possíveis melhorias
+## How to Run
 
-- Utilizar variáveis de ambiente para armazenar a chave da API com `python-dotenv`
-- Criar uma interface web para interação com o chatbot
-- Implementar histórico de conversas
-- Adicionar tratamento de erros para requisições da API
+```bash
+git clone https://github.com/LBaragao/chatbot_ia.git
+cd chatbot_ia
+python main.py
+```
 
-## 📚 Aprendizados
+**Note:** Replace `your_api_key_here` with your own API key before running the project.
 
-- Integração de APIs de inteligência artificial
-- Manipulação de requisições e respostas
-- Criação de aplicações simples baseadas em IA
-
-## 👨‍💻 Autor
-
-Lucas Winkler Baragão
+## Future Improvements
+- Store the API key using environment variables (.env)
+- Add a web interface for the chatbot
+- Improve conversation context handling
