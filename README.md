@@ -1,8 +1,37 @@
-# chatbot_ia
-Projeto feito na aula quatro do curso de Jornada Python da Hashtag Treinamentos
+# Chatbot com Inteligência Artificial
 
-Esse projeto é feito integrando uma API da OpenAI, e já está todo configurado para utilizar com uma api_key.
+Projeto desenvolvido durante a **Jornada Python da Hashtag Treinamentos** para criação de um chatbot utilizando Python e inteligência artificial.
 
-Entretanto, por motivos pessoais, preferi não deixar uma api_key real lá (até por ser paga).
+## 📌 Descrição
 
-Logo, caso queiram utilizar, só precisa substituir a string onde está "minha_api_key" no inicio do código.
+Este projeto demonstra a criação de um chatbot capaz de responder perguntas de usuários utilizando modelos de linguagem.
+
+A aplicação simula uma interface de conversa onde o usuário envia perguntas e recebe respostas geradas por inteligência artificial.
+
+## ⚙️ Tecnologias utilizadas
+
+- Python
+- OpenAI API
+
+## 💬 Funcionalidades
+
+- Receber perguntas do usuário
+- Processar a pergunta utilizando um modelo de IA
+- Retornar respostas geradas automaticamente
+
+## 🚀 Possíveis melhorias
+
+- Utilizar variáveis de ambiente para armazenar a chave da API com `python-dotenv`
+- Criar uma interface web para interação com o chatbot
+- Implementar histórico de conversas
+- Adicionar tratamento de erros para requisições da API
+
+## 📚 Aprendizados
+
+- Integração de APIs de inteligência artificial
+- Manipulação de requisições e respostas
+- Criação de aplicações simples baseadas em IA
+
+## 👨‍💻 Autor
+
+Lucas Winkler Baragão
